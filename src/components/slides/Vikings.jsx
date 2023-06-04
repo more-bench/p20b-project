@@ -8,7 +8,7 @@ export default function Vikings({ setShowMore }) {
          <Card>
             <CardContent>
                <Typography variant="h3" component="div" sx={{ textAlign: "center" }}>
-                  Vikings
+                  Viking 1 and 2
                </Typography>
                <Box
                   display="flex"

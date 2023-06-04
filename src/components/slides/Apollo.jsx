@@ -8,7 +8,7 @@ export default function Apollo({ setShowMore }) {
          <Card>
             <CardContent>
                <Typography variant="h3" component="div" sx={{ textAlign: "center" }}>
-                  Apollo
+                  Apollo 13
                </Typography>
                <Box
                   display="flex"

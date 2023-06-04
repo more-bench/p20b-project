@@ -17,6 +17,7 @@ export default function Curiosity({ setShowMore }) {
                   <Box display="flex" flexDirection="column">
                      <ul>
                         <li>Launched on November 26, 2011</li>
+                        <li>Launched on November 26, 20222</li>
                         <li>Purpose is to determine whether Mars was ever able to support life</li>
                         <li>Found evidence of water on Mars</li>
                      </ul>

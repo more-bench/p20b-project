@@ -1,6 +1,6 @@
 import { Box, Button, Card, CardContent, Typography } from "@mui/material";
 import { useEffect, useRef, useState } from "react";
-import pic from "../../assets/FirstMoonLanding.jpeg";
+import pic from "/Users/albert/Desktop/cosmology/src/assets/Apollo.jpeg";
 <div className="" />;
 export default function MoreApollo() {
    return (
@@ -16,7 +16,7 @@ export default function MoreApollo() {
                </Typography>
                <img id="firstImg" src={pic}></img>
                <Typography variant="p" component="div">
-                  
+
                </Typography>
                <Typography variant="p" component="div">
 

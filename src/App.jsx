@@ -8,13 +8,12 @@ submit the URL and also a copy of the website saved as a PDF file)
 
 123456Cosmoo
 */
- 
+
 function App() {
    return (
-      <>
-         <Typography textAlign="center" marginBottom="5rem" variant="h1">NASA Missions</Typography>
+
+         
          <PageContainer />
-      </>
    );
 }
 

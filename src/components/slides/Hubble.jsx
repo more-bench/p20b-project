@@ -1,14 +1,14 @@
 import { Box, Button, Card, CardContent, List, ListItem, Typography } from "@mui/material";
 import { useEffect, useRef, useState } from "react";
-import pic from "../../assets/Curiosity.png";
+import pic from "../../assets/hubble.jpeg";
 
-export default function Curiosity({ setShowMore }) {
+export default function Hubble({ setShowMore }) {
    return (
       <>
          <Card>
             <CardContent>
                <Typography variant="h3" component="div" sx={{ textAlign: "center" }}>
-                  Curiosity
+                  Hubble Telescope
                </Typography>
                <Box
                   display="flex"
@@ -16,9 +16,9 @@ export default function Curiosity({ setShowMore }) {
                   sx={{ textAlign: "left", fontSize: "30px" }}>
                   <Box display="flex" flexDirection="column">
                      <ul>
-                        <li>Launched on November 26, 2011</li>
-                        <li>Purpose is to determine whether Mars was ever able to support life</li>
-                        <li>Found evidence of water on Mars</li>
+                        <li>Launched on April 24, 1990</li>
+                        <li>Provided detailed images of distant galaxies</li>
+                        <li>Allowed humans to study see how the universe is changing</li>
                      </ul>
                   </Box>
                   <img id="firstImg" src={pic}></img>

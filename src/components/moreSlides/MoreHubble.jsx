@@ -1,6 +1,6 @@
 import { Box, Button, Card, CardContent, Typography } from "@mui/material";
 import { useEffect, useRef, useState } from "react";
-
+import pic from '../../assets/poc.jpeg'
 export default function MoreHubble() {
    return (
       <>
@@ -28,6 +28,7 @@ export default function MoreHubble() {
                      <li>Producing iconic images such as the Pillars of Creation</li>
                   </ul>
                </Typography>
+               <img id = "cardImg" src={pic}></img>
             </CardContent>
          </Card>
       </>

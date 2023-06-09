@@ -15,7 +15,7 @@ export default function MoreApollo() {
                   would leave the moon using the Lunar Module and rendezvous with Command Module
                   which has orbiting the moon with Michael Collins.
                </Typography>
-               <img id="firstImg" src={pic}></img>
+               <img id="cardImg" src={pic}></img>
                <Typography variant="p" component="div">
                   Neil Armstrong and Buzz Aldrin would be the first humans step foot on the moon.
                   Armstrong famously said, "That's one small step for man, one giant leap for
